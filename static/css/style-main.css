@@ -1,0 +1,73 @@
+body {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This centers the frame vertically in the viewport */
+  margin: 0; /* Remove default body margin */
+  font-family: "Courier New", Courier, monospace;
+}
+
+.frame {
+  background-color: #1e1e1e;
+  width: 1500px;
+  height: 900px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 750px 750px;
+  grid-template-rows: 170px 300px 400px;
+}
+
+.barra {
+  background-color: #d9d9d9;
+  width: 1441.84px;
+  height: 124.08px;
+  margin-top: 15px;
+  margin-left: 29.08px;
+  border-radius: 10px;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+#ValCons {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+#menuIni {
+  text-align: center;
+  font-size: 25px;
+}
+
+.unselectable {
+  user-select: none;
+}
+
+.clientes {
+  grid-column: 1;
+  grid-row: 2;
+  margin-left: 29.08px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: #1b56ae 3px solid;
+}
+
+.pdm {
+  grid-column: 1;
+  grid-row: 3;
+  margin-left: 29.08px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: #1b56ae 3px solid;
+  margin-top: 30px;
+}
+
+.outra {
+  grid-column: 2;
+  grid-row: 2;
+  margin-right: 29.08px;
+  margin-left: 10px;
+  border-radius: 10px;
+  height: 700px;
+  border: #1b56ae 3px solid;
+}
