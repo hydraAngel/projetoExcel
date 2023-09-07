@@ -60,6 +60,7 @@ body {
   border-radius: 10px;
   border: #1b56ae 3px solid;
   margin-top: 30px;
+  
 }
 
 .outra {
@@ -70,4 +71,43 @@ body {
   border-radius: 10px;
   height: 700px;
   border: #1b56ae 3px solid;
+}
+
+
+#clientes-h3 {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn {
+  width: 305px;
+  height: 73px;
+  margin-top: 75px;
+  font-size: 35px;
+  border-radius: 6px;
+}
+
+#clientes-abrir {
+  margin-left: 45px;
+}
+
+
+#pdm-h3 {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+
+#pdm-abrir, #pdm-dash {
+  margin-left: 45px;
+}
+
+
+#pdm-dash, #pdm-incluir {
+  margin-top: 40px;
+}
+
+#pdm-criar, #pdm-abrir {
+  margin-top: 30px;
 }
